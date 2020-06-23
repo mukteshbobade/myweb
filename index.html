@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		
+	</title>
+</head>
+<body>
+
+<form novalidate>
+	<fieldset>
+	<legend>Personal Information</legend>
+	
+	<label="Name">Name</label>
+	<input type="text" name="name" id="name" required pattern="[a-zA-Z]+"><br>
+	
+	<label="email">Email</label>
+	<input type="email" name="email" id="email" placeholder="abc@gmail.com"><br>
+	
+	<label="password">Password</label>
+	<input type="password" name="password" id="pass1"><br>
+	<label="password">Confirm Password</label>
+	<input type="password" name="password" id="pass2" onchange="validate()"><br>
+	
+	Male<input type="radio" name="radio" value="Male">
+	Female<input type="radio" name="radio" value="Female"><br>
+	
+	Contact Via Mail<input type="checkbox" name="check" value="mail"><br>
+	Contact Via Phone<input type="checkbox" name="check" value="phone"><br>
+	
+	<label="birth">Birthday</label>
+	<input type="date" name="birth" id="birth"><br>
+	
+	Number<input type="number" name="no"><br>
+	
+	Color<input type="color" name="color"><br>
+	
+	<input type="submit" name="Click Here" >
+	
+	</fieldset>
+</form>
+</body>
+</html>
